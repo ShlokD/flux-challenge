@@ -1,0 +1,21 @@
+{
+  "name": "submissions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify shlok/app.js -t babelify -o shlok/dist/build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babelify": "^10.0.0",
+    "preact": "^10.1.1",
+    "watchify": "^3.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-react-jsx": "^7.7.7"
+  }
+}
